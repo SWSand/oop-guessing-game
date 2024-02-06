@@ -26,7 +26,6 @@ class GuessingGame():
 def main():
     win = False
     answer = random.randint(1,100)
-    print(answer)
 
     while win == False:
 
@@ -40,8 +39,6 @@ def main():
         else:
             print("Correct! You win!")
             win = True
-
-
         
 if __name__ == "__main__":
     main()
